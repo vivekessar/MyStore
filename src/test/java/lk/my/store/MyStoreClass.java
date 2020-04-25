@@ -48,6 +48,11 @@ public class MyStoreClass {
 				.findElement(By.xpath("//div[@id='department-phones-tablets']//div[1]//ul[1]//li[1]//a[1]"));
 		actions.moveToElement(overShowAll).click().build().perform();
 
+		// practice git
+		System.out.println("developer changes one");
+		System.out.println("developer changes two");
+		System.out.println("developer changes three");
+		System.out.println("developer changes four");
 		// search for product
 
 		WebElement searchBox = driver.findElement(By.xpath("//input[@id='search-input']"));
