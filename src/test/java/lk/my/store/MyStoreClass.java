@@ -53,6 +53,7 @@ public class MyStoreClass {
 		System.out.println("developer changes two");
 		System.out.println("developer changes three");
 		System.out.println("developer changes four");
+		System.out.println("developer changes fIVE");
 		// search for product
 
 		WebElement searchBox = driver.findElement(By.xpath("//input[@id='search-input']"));
